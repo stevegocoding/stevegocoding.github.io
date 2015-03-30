@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: Talk the walked, Walk the talked
+description:  My mind dump
 
 sass:
   sass_dir: assets/css/_sass
@@ -9,15 +9,15 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://nadjetey.github.io/wangana
+url: http://127.0.0.1:4000
 permalink: /:year/:month/:title/
 owner:
-    name: #
-    twitter: #
-    github: #
+    name: Guangfu Shi
+    twitter: stevegocoding
+    github: stevegocoding
     disqus_shortname: #
 
 ga_id: #
 ga_username: #
 
-timezone: Africa/Accra
+timezone: Canada/Eastern
