@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "About Me"
+    url: /about/
+
+  - title: "Posts"
+    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+
+  - title: "Projects"
+    url: /portfolio/

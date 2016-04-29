@@ -1,0 +1,10 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+permalink: /about/
+title: "About Me"
+layout: single
+---
+#+END_HTML
+
+This is the about page
