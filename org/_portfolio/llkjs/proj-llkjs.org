@@ -1,0 +1,24 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+permalink: /portfolio/llkjs/
+title: "Connect & Eliminate Game"
+layout: single
+author_profile: false
+excerpt: "A simple connect & eliminate puzzle written in Javascript"
+header:
+  teaser: "llkjs_portfolio.png"
+
+gallery:
+  - url: llkjs_gallery_1.png
+    image_path: llkjs_gallery_1.png
+    alt: "placeholder image 1"
+  - url: llkjs_gallery_2.png
+    image_path: llkjs_gallery_2.png
+    alt: "placeholder image 2"
+---
+#+END_HTML
+
+This is the llkjs portofolio page
+
+{% include gallery %}

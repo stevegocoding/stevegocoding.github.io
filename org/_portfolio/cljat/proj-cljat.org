@@ -5,7 +5,21 @@ permalink: /portfolio/cljat/
 title: "Cljat Webapp"
 layout: single
 author_profile: false
+excerpt: "A websocket chat web app with Clojure, Clojurescript, Redis and Postgresql"
+header:
+  teaser: "cljat_portfolio.png"
+
+gallery:
+  - url: cljat_gallery_1.png
+    image_path: cljat_gallery_1.png
+    alt: "placeholder image 1"
+  - url: cljat_gallery_2.png
+    image_path: cljat_gallery_2.png
+    alt: "placeholder image 2"
 ---
 #+END_HTML
 
 This is the cljat portofolio page
+@TODO: project details
+
+{% include gallery %}
