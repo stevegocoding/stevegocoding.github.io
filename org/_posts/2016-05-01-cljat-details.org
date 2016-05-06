@@ -21,7 +21,7 @@ tags:
 
 After spending weeks of my spare time fiddling with Clojure, I
 finally put together a simple websocket chat web application -
-@@html:<a href="/portfolio/cljat">@@ Cljat @@html:</a>@@.
+[[http:/portfolio/cljat][Cljat]]
 
 ** System Design
 

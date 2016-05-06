@@ -19,7 +19,23 @@ gallery:
 ---
 #+END_HTML
 
-This is the cljat portofolio page
-@TODO: project details
+I've been working on this toy project to learn Clojure lately fianlly
+there is a walking skeleton I can put it out there. 
+
+Here is the live demo running on an EC2 instance: [[http://ec2-52-38-68-204.us-west-2.compute.amazonaws.com:8080][Live Demo]]
 
 {% include gallery %}
+
+Features:
+- Realtime messaging with Websocket
+- Scalable with Redis' PUB/SUB across web server nodes
+- React Clojurescript front-end application with Reagent
+
+Nice to have in the future:
+- More powerful messaging protocols
+- User profiles features
+- Messages history searching support with ElasticSearch or Solr
+- API and Native mobile client
+
+I'll be sharing some things I've leant while working on this project
+in this [[http:/dev/portfolio/cljat-details/][Post]]
