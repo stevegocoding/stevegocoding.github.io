@@ -22,4 +22,8 @@ gallery:
 ---
 #+END_HTML
 
+More details will be updated soon.
+
+Here is the [[https://github.com/stevegocoding/dx11_sdk][GitHub Repo]].
+
 {% include gallery %}

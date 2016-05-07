@@ -13,10 +13,14 @@ gallery:
   - url: yart_room2.jpg
     image_path: yart_room2.jpg
     alt: "Room 2"
-  - url: yart_building.jpq
+  - url: yart_building.jpg
     image_path: yart_building.jpg
     alt: "Building"
 ---
 #+END_HTML
+
+More details will be updated soon.
+
+Here is the [[https://github.com/stevegocoding/yart][GitHub Repo]]
 
 {% include gallery %}
