@@ -4,13 +4,14 @@
 
 div.highlighter-rouge, figure.highlight {
   position: relative;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   padding: 1em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background-color: $code-background-color;
   box-shadow: $box-shadow;
-
+  font-size: 0.82em;
+  
   &:before {
     position: absolute;
     top: 0;
@@ -28,14 +29,14 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-7;
-    line-height: 1.8;
+    font-size: 0.83em;
+    background: #F7FAFB;
+    // line-height: 1.8;
   }
 }
 
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
-
 
 /*
    Solarized Light
@@ -121,3 +122,4 @@ div.highlighter-rouge, figure.highlight {
 .highlight .vg { color: #22b3eb } /* Name.Variable.Global */
 .highlight .vi { color: #22b3eb } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
