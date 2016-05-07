@@ -2,10 +2,10 @@
 #+BEGIN_HTML
 ---
 permalink: /portfolio/llkjs/
-title: "Connect & Eliminate Game"
+title: "A Tile-Matching Game"
 layout: single
 author_profile: false
-Excerpt: "A simple connect & eliminate puzzle written in Javascript"
+excerpt: "A simple tile-matching puzzle written in Javascript"
 header:
   teaser: "llkjs_portfolio.png"
 

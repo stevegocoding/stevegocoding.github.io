@@ -1,0 +1,22 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+permalink: /portfolio/yart/
+title: "CPU Ray-Tracing Demo"
+layout: single
+author_profile: false
+excerpt: "A CPU Monte Carlo Ray-Tracing Demo."
+header:
+  teaser: "yart_room.png"
+
+gallery:
+  - url: yart_room2.jpg
+    image_path: yart_room2.jpg
+    alt: "Room 2"
+  - url: yart_building.jpq
+    image_path: yart_building.jpg
+    alt: "Building"
+---
+#+END_HTML
+
+{% include gallery %}
