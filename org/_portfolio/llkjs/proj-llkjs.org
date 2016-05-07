@@ -28,15 +28,15 @@ gallery:
 This is a quick game demo I wrote with JS with jQuery, underscore and
 a 2D canvas rendering library called [[http://www.createjs.com/easeljs][EaselJS]]. 
 
-Here is the [[http://www.magkbdev.com/llkjs][Live Demo]]
+Here is the [[http://www.magkbdev.com/llkjs][Live Demo]] and the [[https://github.com/stevegocoding/llkjs][GitHub Repo]]
 
 {% include gallery %} 
 
 ** How to play:
-- Select one tile, looking for another one with same type to connect
++ Select one tile, looking for another one with same type to connect
   and eliminate. Two tiles are connected if:
-  - There is a path (only up, right, down, left) between them, AND
-  - The path has less than two (inclusive) turns.
+  + There is a path (only up, right, down, left) between them, AND
+  + The path has less than two (inclusive) turns.
 
 #+BEGIN_HTML
 <figure>

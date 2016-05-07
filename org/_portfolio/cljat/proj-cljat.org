@@ -24,6 +24,9 @@ there is a walking skeleton I can put it out there.
 
 Here is the live demo running on an EC2 instance: [[http://ec2-52-38-68-204.us-west-2.compute.amazonaws.com:8080][Live Demo]]
 
+Here are some development details and things l've learned in this
+[[http:/dev/portfolio/cljat-details/][Post]].
+
 {% include gallery %}
 
 Features:
@@ -37,5 +40,5 @@ Nice to have in the future:
 - Messages history searching support with ElasticSearch or Solr
 - API and Native mobile client
 
-I'll be sharing some things I've leant while working on this project
-in this [[http:/dev/portfolio/cljat-details/][Post]]
+
+
