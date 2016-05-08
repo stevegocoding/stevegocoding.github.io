@@ -101,8 +101,7 @@ the MQ consuming the message and inserting it to DB.
 <div class="outline-text-3" id="text-2-1">
 <p>
 The server side of the application is implemented with
-<a href="https://github.com/stuartsierra/component">Suart Sierra's
-Component library</a> and pairs with the Reloaded workflow and Clojure's
+<a href="https://github.com/stuartsierra/component">Suart Sierra's Component library</a> and pairs with the Reloaded workflow and Clojure's
 awesome REPL, development becomes so fun and productive. I can quickly
 refresh for code changes and reset system's states with a key
 stroke, or try things out in REPL without messing with the application
@@ -112,6 +111,49 @@ code.
 <p>
 @TODO: system's components
 </p>
+{% highlight clojure %}
+(defn system [sys-config]
+  (-> (component/system-map
+       ;; The core.async channel from ws handler to message router
+       :ws-router-ch (a/chan)
+
+       ;; The core.async channel from message router to ws handler 
+       :router-ws-ch (a/chan)
+
+       ;; Redis client
+       :redis (new-redis-server (:redis sys-config))
+
+       ;; Database
+       :db (new-db (:db sys-config))
+
+       ;; A worker that handles the websocket messages to put them on an outgoing channel 
+       :ws-handler (new-ws-handler)
+
+       ;; A worker that take a message from an incoming channel, publish to redis and-
+       ;; put the response message on an outgoing channel
+       :msg-router (new-msg-router)
+
+       ;; Compojure route
+       :routes (new-endpoint (:auth sys-config) new-app-routes)
+
+       ;; Http-kit server
+       :web-server (new-web-server (:web sys-config)))
+      
+      (component/system-using
+        {:ws-handler {:in-ch :router-ws-ch 
+                      :out-ch :ws-router-ch 
+                      :redis :redis}
+
+         :msg-router {:in-ch :ws-router-ch
+                      :out-ch :router-ws-ch
+                      :redis :redis}
+
+         :routes [:db :ws-handler]
+        
+         :web-server [:routes]
+
+         :redis [:db]})))
+{% endhighlight %}
 
 <p>
 Another powerful weapon of Clojure as
