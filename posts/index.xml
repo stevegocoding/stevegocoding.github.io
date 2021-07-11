@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Steve Shi&#39;s Personal Blog</title>
-        <link>http://stevegocoding.github.io/</link>
-        <description>Steve Shi&#39;s Personal Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Jul 2021 14:59:18 -0700</lastBuildDate>
-            <atom:link href="http://stevegocoding.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - Steve Shi&#39;s Personal Blog</title>
+        <link>http://stevegocoding.github.io/posts/</link>
+        <description>All Posts | Steve Shi&#39;s Personal Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Jul 2021 14:59:18 -0700</lastBuildDate><atom:link href="http://stevegocoding.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Number of Substrings with All Zeroes</title>
     <link>http://stevegocoding.github.io/posts/leetcode/number_of_substrings_with_all_zeroes/</link>
     <pubDate>Sun, 11 Jul 2021 14:59:18 -0700</pubDate>

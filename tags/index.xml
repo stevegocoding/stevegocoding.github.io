@@ -3,5 +3,26 @@
         <title>Tags - Tag - Steve Shi&#39;s Personal Blog</title>
         <link>http://stevegocoding.github.io/tags/</link>
         <description>Tags - Tag - Steve Shi&#39;s Personal Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://stevegocoding.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Jul 2021 14:59:18 -0700</lastBuildDate><atom:link href="http://stevegocoding.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>LeetCode</title>
+    <link>http://stevegocoding.github.io/tags/leetcode/</link>
+    <pubDate>Sun, 11 Jul 2021 14:59:18 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://stevegocoding.github.io/tags/leetcode/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>LintCode</title>
+    <link>http://stevegocoding.github.io/tags/lintcode/</link>
+    <pubDate>Sun, 11 Jul 2021 14:59:18 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://stevegocoding.github.io/tags/lintcode/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>TwoPointers</title>
+    <link>http://stevegocoding.github.io/tags/twopointers/</link>
+    <pubDate>Sun, 11 Jul 2021 14:59:18 -0700</pubDate>
+    <author>Author</author>
+    <guid>http://stevegocoding.github.io/tags/twopointers/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
